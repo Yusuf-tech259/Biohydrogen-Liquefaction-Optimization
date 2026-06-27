@@ -1,8 +1,8 @@
 # Biohydrogen Liquefaction Optimization
 
-This repository contains the source code and datasets used in the paper:
+This repository contains the source code used in the paper:
 
-"Multi-objective optimization of biohydrogen liquefaction using ANN, MOGA and MORL-PPO."
+"Multi-objective optimization of biohydrogen liquefaction using ANN, NSGA-II and MARL-PPO."
 
 ## Requirements
 
@@ -23,6 +23,6 @@ pip install -r requirements.txt
 
 ## Running the codes
 
-python ANN/ann_model.py
-python MOGA/moga_optimization.py
-python MORL/ppo_optimization.py
+python ANN/ANN_model.py
+python NSGA-II/NSGA-II_optimization.py
+python MARL/MARL-ppo_optimization.py
